@@ -1,0 +1,72 @@
+.title-heading {
+  font-size:36px;
+}
+
+.title-heading:first-child {
+  margin-top:10%;
+}
+
+.profilePop {
+  transition:all .3s;
+  border-radius:25px;
+  opacity:0;
+  margin-bottom:5px;
+}
+
+.project, .skills, .contact {
+  display:none;
+}
+
+#projectBorder {
+  border:1px solid #6664a2;
+}
+
+.jumbotron {
+  background-image:url("../../assets/img/Landing200.jpg");
+  background-size:cover;
+}
+
+@media (min-width: 960px) {
+  .jumbotron {
+    background-image:url("../../assets/img/Landing960.jpg");
+  }
+}
+
+@media (min-width: 768px) {
+  .title-heading {
+    font-size:48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .title-heading {
+    font-size:84px;
+  }
+}
+
+@media (min-width: 960px) {
+  .title-heading:first-child {
+    margin-top:0;
+  }
+}
+
+@media (min-width: 960px) {
+  .display-height {
+    height:80%;
+  }
+}
+
+.contact {
+  background-image:url("../../assets/img/rsz_2codyinamtrosepic.jpg");
+  background-repeat:no-repeat;
+  background-color:#000;
+  background-position:center;
+}
+
+@media (min-width: 768px) {
+  .img-fluid {
+    height:200px;
+    width:260px;
+  }
+}
+
