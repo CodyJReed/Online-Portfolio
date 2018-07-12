@@ -18,7 +18,7 @@ home.addEventListener('mouseout', function() {
 // Define a SPA Event to hide and display Nav links/creating a single page feel 
 navPop.addEventListener('click', function(event) {
     event.preventDefault();
-    
+    profilePop.style.opacity = '1';
     $('.jumbotron').css({
         'display' : 'none'
     });
